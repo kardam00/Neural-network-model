@@ -24,3 +24,6 @@ for calculating the loss, we have to call **loss()** function which take two inp
 for minimizing the loss, we have to call **minimise()** function which takes inputs, (X, actual output, size of input, hidden and output layers, weights, biases, learning rate and numver of iterations to be performed) and returns minimum loss and new weights and new biases.
 
 Forward and back propagation are done inside the **minimise()** function. For computing change in weights/biases we uses derivatives.
+
+
+**Main.py** file is added to show how to call the all functions with inputs and print outputs.
